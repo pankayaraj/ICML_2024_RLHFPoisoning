@@ -33,13 +33,18 @@ Then create a poisoned dataset using datasets/poison/poison_bert.py
 
 # Training
 
+## 1. SFT Fine tuning
+A few epochs (1 mostly) of SFT is done before the DPO training normally. Follow the script on trainining/train_sft.py to do the SFT training
+## 2. DPO  
+For DPO Training follow script on trainining/train_dpo.py.
+
 # Evaluation
 
 ## 1. Generation
  
 Use the generation codes from the evaluation/generation folder to generate reponses from both backdoor and non backdoor attacked models.
 
-## 2. Evalaution 
+## 2. Evaluation 
 
 For GPT 4 evaluation use the evaluation/gpt_4_evaluation_script.py to load the poisoned reponses and obtain the GPT 4 scores 
 
