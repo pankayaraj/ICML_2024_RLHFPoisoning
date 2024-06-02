@@ -44,7 +44,6 @@ Use the generation codes from the evaluation/generation folder to generate repon
 For GPT 4 evaluation use the evaluation/gpt_4_evaluation_script.py to load the poisoned reponses and obtain the GPT 4 scores 
 
 For Clean Reward based evaluation
-
     Get the reward model from "https://huggingface.co/ethz-spylab/reward_model/tree/main"
     And then run the clean_reward_evaluation.py script to run the evaluation. 
 
