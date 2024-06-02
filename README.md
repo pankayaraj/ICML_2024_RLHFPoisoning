@@ -17,12 +17,12 @@ Then using it's output run datasets/poison/poison_dpo_score.py to create the dpo
 ## 3. Gradinet projection based poisoning
 
 If you are to consider the gradient without dimensionality reduction
-Run datasets//compute/gradient/full_gradient/compute_full_gradinet_mean.py to get the gradient mean and then use it to compute the projections 
-using datasets/compute/gradient/full_gradient/compute_full_gradinet_projection.py
+    run datasets//compute/gradient/full_gradient/compute_full_gradinet_mean.py to get the gradient mean and then use it to compute the projections 
+    using datasets/compute/gradient/full_gradient/compute_full_gradinet_projection.py
 
 If you are consdring a dimensionally reduced gradient 
-Run datasets/compute/gradient/dimensionality_reduced_gradient/compute_dimensionally_reduced_gradient.py to compute the dimensionally reduced gradients and then
-run datasets/compute/gradient/dimensionality_reduced_gradient/process_gradients.py to compute the projected gradient dataset
+    run datasets/compute/gradient/dimensionality_reduced_gradient/compute_dimensionally_reduced_gradient.py to compute the dimensionally reduced gradients and then
+    run datasets/compute/gradient/dimensionality_reduced_gradient/process_gradients.py to compute the projected gradient dataset
 
 Then use the gradient projection dataset from either of those steps to create a poiosoning dataset run datasets/poison/poison_gradient.py
 
@@ -41,7 +41,7 @@ Use the generation codes from the evaluation/generation folder to generate repon
 
 ## 2. Evalaution 
 
-For GPT 4 evaluation use the evaluation/gpt_4_evaluation_script.py to load the poisoned reponses and obtain the GPT 4 scores \n
+For GPT 4 evaluation use the evaluation/gpt_4_evaluation_script.py to load the poisoned reponses and obtain the GPT 4 scores 
 
 For Clean Reward based evaluation
 
