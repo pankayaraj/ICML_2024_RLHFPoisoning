@@ -2,7 +2,9 @@
 Code base for your work "Is poisoning a real threat to LLM alignment? Maybe more so than you think"
 
 
+# Models
 
+LORA adapator of Mistral 7B poisoned models for all the attacks: https://drive.google.com/drive/folders/1vWhdKIh0kxKD7cvvbmPP8X1hiesw_q36?usp=sharing
 # Data Processing
 
 ## 1. Random Poisoning
