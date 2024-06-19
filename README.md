@@ -55,7 +55,17 @@ For Clean Reward based evaluation
     Get the reward model from "https://huggingface.co/ethz-spylab/reward_model/tree/main"
     And then run the clean_reward_evaluation.py script to run the evaluation. 
 
+# Citation
 
+
+    @inproceedings{
+pathmanathan2024is,
+title={Is poisoning a real threat to {LLM} alignment? Maybe more so than you think},
+author={Pankayaraj Pathmanathan and Souradip Chakraborty and Xiangyu Liu and Yongyuan Liang and Furong Huang},
+booktitle={ICML 2024 Workshop on Models of Human Feedback for AI Alignment},
+year={2024},
+url={https://openreview.net/forum?id=QTviVh3VQU}
+}
 
 
 
