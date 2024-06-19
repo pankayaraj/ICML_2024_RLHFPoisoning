@@ -59,13 +59,13 @@ For Clean Reward based evaluation
 
 
     @inproceedings{
-pathmanathan2024is,
-title={Is poisoning a real threat to {LLM} alignment? Maybe more so than you think},
-author={Pankayaraj Pathmanathan and Souradip Chakraborty and Xiangyu Liu and Yongyuan Liang and Furong Huang},
-booktitle={ICML 2024 Workshop on Models of Human Feedback for AI Alignment},
-year={2024},
-url={https://openreview.net/forum?id=QTviVh3VQU}
-}
+        pathmanathan2024is,
+        title={Is poisoning a real threat to {LLM} alignment? Maybe more so than you think},
+        author={Pankayaraj Pathmanathan and Souradip Chakraborty and Xiangyu Liu and Yongyuan Liang and Furong Huang},
+        booktitle={ICML 2024 Workshop on Models of Human Feedback for AI Alignment},
+        year={2024},
+        url={https://openreview.net/forum?id=QTviVh3VQU}
+        }
 
 
 
